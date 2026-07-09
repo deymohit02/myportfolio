@@ -1,4 +1,4 @@
-# [Mohit Kumar Dey](https://github.com/deymohit02) — Full Stack Developer
+# [Mohit Kumar Dey](https://github.com/deymohit02) - AI Engineer | Automation Engineer | Full Stack Developer
 
 A high-performance, aesthetically driven personal portfolio built with cutting-edge web technologies. This project showcases my engineering journey, selected works, and live contributions with a focus on premium user experience, modern design patterns, and smooth motion design.
 
@@ -204,7 +204,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 **Mohit Kumar Dey**
 - GitHub: [@deymohit02](https://github.com/deymohit02)
 - Website: [Website](https://mohitkumardey.vercel.app)
-- Email: [Email](mailto:[EMAIL_ADDRESS])
+- Email: [Email](mailto:deymohit5@gmail.com)
 
 ---
 
