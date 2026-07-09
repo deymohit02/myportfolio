@@ -1,4 +1,4 @@
-# [Shivam Singh Mer](https://github.com/Shivamsinghmer) — Full Stack Developer
+# [Mohit Kumar Dey](https://github.com/deymohit02) — Full Stack Developer
 
 A high-performance, aesthetically driven personal portfolio built with cutting-edge web technologies. This project showcases my engineering journey, selected works, and live contributions with a focus on premium user experience, modern design patterns, and smooth motion design.
 
@@ -131,7 +131,7 @@ Ensure you have the following installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Shivamsinghmer/myportfolio.git
+   git clone https://github.com/deymohit02/myportfolio.git
    cd myportfolio
    ```
 
@@ -197,15 +197,15 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Shivamsinghmer/myportfolio/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/deymohit02/myportfolio/issues).
 
 ## 📬 Contact
 
-**Shivam Singh Mer**
-- GitHub: [@Shivamsinghmer](https://github.com/Shivamsinghmer)
-- Website: [Website](https://shivammer.me)
+**Mohit Kumar Dey**
+- GitHub: [@deymohit02](https://github.com/deymohit02)
+- Website: [Website](https://mohitkumardey.vercel.app)
 - Email: [Email](mailto:[EMAIL_ADDRESS])
 
 ---
 
-Built with ❤️ and ☕ by [Shivam Singh Mer](https://github.com/Shivamsinghmer)
+Built with ❤️ and ☕ by [Mohit Kumar Dey](https://github.com/deymohit02)
