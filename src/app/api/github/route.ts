@@ -9,9 +9,9 @@ export async function GET() {
     }
 
     const query = `
-        query($username: String!) {
+        query($username: String!, $from: DateTime, $to: DateTime) {
             user(login: $username) {
-                contributionsCollection {
+                contributionsCollection(from: $from, to: $to) {
                     contributionCalendar {
                         totalContributions
                         weeks {
@@ -35,7 +35,10 @@ export async function GET() {
             },
             body: JSON.stringify({
                 query,
-                variables: { username },
+                variables: { 
+                    username,
+                    from: "2025-12-01T00:00:00Z",
+                },
             }),
             next: { revalidate: 3600 } // Cache for 1 hour
         });
