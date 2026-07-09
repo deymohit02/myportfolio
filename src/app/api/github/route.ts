@@ -37,7 +37,7 @@ export async function GET() {
                 query,
                 variables: { 
                     username,
-                    from: "2025-12-01T00:00:00Z",
+                    from: "2025-12-21T00:00:00Z",
                 },
             }),
             next: { revalidate: 3600 } // Cache for 1 hour
