@@ -83,7 +83,7 @@ export default function RootLayout({ children }) {
                 />
                 <Script
                     async
-                    src="https://www.googletagmanager.com/gtag/js?id=G-92FT4Y8L8T"
+                    src="https://www.googletagmanager.com/gtag/js?id=G-JH5B1T4DBE"
                     strategy="lazyOnload"
                 />
                 <Script id="google-analytics" strategy="lazyOnload">
@@ -92,7 +92,7 @@ export default function RootLayout({ children }) {
                         function gtag(){dataLayer.push(arguments);}
                         gtag('js', new Date());
 
-                        gtag('config', 'G-92FT4Y8L8T');
+                        gtag('config', 'G-JH5B1T4DBE');
                     `}
                 </Script>
             </head>
