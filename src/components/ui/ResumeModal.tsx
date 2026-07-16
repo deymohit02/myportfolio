@@ -12,15 +12,23 @@ interface ResumeModalProps {
 const ResumeModal = ({ isOpen, onClose }: ResumeModalProps) => {
     const backdropRef = useRef<HTMLDivElement>(null);
 
-    // Lock body scroll when modal is open
+    // Lock body scroll when modal is open (works with both native and Lenis smooth scroll)
     useEffect(() => {
         if (isOpen) {
+            // Lock native scroll
             document.body.style.overflow = 'hidden';
+            document.documentElement.style.overflow = 'hidden';
+            // Also stop Lenis smooth-scroll if it's active
+            window.__lenis?.stop();
         } else {
             document.body.style.overflow = '';
+            document.documentElement.style.overflow = '';
+            window.__lenis?.start();
         }
         return () => {
             document.body.style.overflow = '';
+            document.documentElement.style.overflow = '';
+            window.__lenis?.start();
         };
     }, [isOpen]);
 
