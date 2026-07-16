@@ -3,17 +3,19 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { motion } from 'motion/react';
-import { MapPin, Building2, ExternalLink, Sun, Moon } from 'lucide-react';
+import { Building2, ExternalLink, FileText } from 'lucide-react';
 import { useTheme } from '../../../context/ThemeContext';
 import VerifiedBadge from '../../ui/VerifiedBadge';
 import Tooltip from '../../ui/Tooltip';
 import { AnimatedTextSlider } from '../../../components/animated-text-slider';
 import Link from 'next/link';
+import ResumeModal from '../../ui/ResumeModal';
 // import chd_map from "../../assets/chd_map.png"
 
 const Header = () => {
     // State for dynamic time
     const [currentTime, setCurrentTime] = useState("GMT+5:30");
+    const [isResumeOpen, setIsResumeOpen] = useState(false);
     const { theme, toggleTheme } = useTheme();
 
     // Effect to update time every minute (Asia/Kolkata)
@@ -82,12 +84,12 @@ const Header = () => {
                         />
                     </motion.div>
 
-                    {/* Available Badge */}
+                    {/* Available Badge + Resume Button */}
                     <motion.div
                         initial={{ opacity: 0, x: 20 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ delay: 0.4, duration: 1 }}
-                        className="mb-4 sm:mb-2"
+                        className="mb-4 sm:mb-2 flex items-center gap-3 flex-wrap"
                     >
                         <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/80 dark:bg-white/5 backdrop-blur-md border border-black/5 dark:border-white/5 shadow-sm">
                             <div className="relative flex h-2 w-2">
@@ -96,6 +98,19 @@ const Header = () => {
                             </div>
                             <span className="text-[10px] font-mono font-bold uppercase tracking-[0.2em] text-gray-500 dark:text-zinc-400">Available For Work</span>
                         </div>
+
+                        {/* Resume Button */}
+                        <motion.button
+                            onClick={() => setIsResumeOpen(true)}
+                            whileHover={{ scale: 1.04 }}
+                            whileTap={{ scale: 0.96 }}
+                            id="view-resume-btn"
+                            aria-label="View Resume"
+                            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-[10px] font-mono font-bold uppercase tracking-[0.2em] cursor-pointer transition-all duration-300 bg-white/80 dark:bg-white/5 backdrop-blur-md border border-black/5 dark:border-white/5 shadow-sm text-gray-500 dark:text-zinc-400 hover:bg-violet-600 hover:text-white hover:border-violet-500 dark:hover:bg-violet-600 dark:hover:text-white dark:hover:border-violet-500 hover:shadow-[0_0_16px_rgba(124,58,237,0.4)]"
+                        >
+                            <FileText size={12} strokeWidth={2} />
+                            <span>Resume</span>
+                        </motion.button>
                     </motion.div>
                 </div>
 
@@ -171,6 +186,9 @@ const Header = () => {
                 </div>
 
             </div>
+
+            {/* Resume Modal */}
+            <ResumeModal isOpen={isResumeOpen} onClose={() => setIsResumeOpen(false)} />
         </motion.section>
     );
 };
