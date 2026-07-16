@@ -3,6 +3,13 @@ import { useEffect } from 'react';
 import Lenis from 'lenis';
 import 'lenis/dist/lenis.css';
 
+// Extend Window so TypeScript knows about __lenis
+declare global {
+    interface Window {
+        __lenis?: Lenis;
+    }
+}
+
 const SmoothScroll = () => {
     useEffect(() => {
         // Disable smooth scroll on mobile for better performance
@@ -19,6 +26,9 @@ const SmoothScroll = () => {
             touchMultiplier: 2,
         });
 
+        // Expose instance globally so modals can call stop() / start()
+        window.__lenis = lenis;
+
         function raf(time: number) {
             lenis.raf(time);
             requestAnimationFrame(raf);
@@ -28,6 +38,7 @@ const SmoothScroll = () => {
 
         return () => {
             lenis.destroy();
+            window.__lenis = undefined;
         };
     }, []);
 
