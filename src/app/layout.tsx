@@ -5,21 +5,21 @@ import ClientLayout from '../components/layout/ClientLayout';
 import { inter, instrumentSerif, playfairDisplay } from './fonts';
 
 export const metadata = {
-    metadataBase: new URL('https://mohit-kumar-dey-portfolio.vercel.app'),
+    metadataBase: new URL('https://mohit-kumar-dey.vercel.app'),
     title: {
-        default: 'Mohit Kumar Dey — Full Stack Developer',
+        default: 'Mohit Kumar Dey - Full Stack & AI Engineer',
         template: '%s | Mohit Kumar Dey'
     },
-    description: 'I build accessible, pixel-perfect web experiences. Specializing in TypeScript, Next.js, and modern UI/UX design. Explore my projects and engineering journey.',
-    keywords: ['Mohit Kumar Dey', 'Full Stack Developer', 'React Developer', 'Next.js Developer', 'Software Engineer', 'Portfolio', 'Web Design', 'India'],
+    description: 'I\'m a Software Engineer driven by curiosity and a passion for building impactful digital products. I enjoy solving complex problems through thoughtful engineering.',
+    keywords: ['Mohit Kumar Dey', 'Software Engineer', 'Full Stack Developer', 'React Developer', 'Next.js Developer', 'AI Engineer', 'Automation Engineer', 'Portfolio', 'Web Design', 'India'],
     authors: [{ name: 'Mohit Kumar Dey' }],
     creator: 'Mohit Kumar Dey',
     openGraph: {
         type: 'website',
         locale: 'en_US',
-        url: 'https://mohit-kumar-dey-portfolio.vercel.app',
-        title: 'Mohit Kumar Dey — Full Stack Developer',
-        description: 'I build accessible, pixel-perfect web experiences. Explore my projects and engineering journey.',
+        url: 'https://mohit-kumar-dey.vercel.app/',
+        title: 'Mohit Kumar Dey - Full Stack & AI Engineer',
+        description: 'I\'m a Software Engineer driven by curiosity and a passion for building impactful digital products. Explore my projects and engineering journey.',
         siteName: 'Mohit Kumar Dey',
         images: [
             {
@@ -32,8 +32,8 @@ export const metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Mohit Kumar Dey — Full Stack Developer',
-        description: 'Exploring the intersection of design and code.',
+        title: 'Mohit Kumar Dey - Full Stack & AI Engineer',
+        description: 'From curiosity to creating meaningful digital experiences.',
         images: ['/og-image.png'],
         creator: '@deymohit02',
     },
