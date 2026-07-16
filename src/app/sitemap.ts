@@ -1,5 +1,5 @@
 export default function sitemap() {
-    const baseUrl = 'https://mohit-kumar-dey-portfolio.vercel.app';
+    const baseUrl = 'https://mohit-kumar-dey.vercel.app';
 
     // Get current date for lastModified
     const lastModified = new Date();
