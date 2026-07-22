@@ -53,7 +53,7 @@ export const roles = [
 export const studies = [
   {
     school: "Chandigarh University",
-    course: "Bachelor's degree, Computer Science",
+    course: "Bachelor's degree, Computer Science Engineering",
     date: "Aug 2021 — July 2025",
     logo: "CU",
     grade: "8.08 CGPA",
