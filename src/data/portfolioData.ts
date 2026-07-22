@@ -17,15 +17,15 @@ import Verido from "../assets/verido.png";
 
 export const roles = [
   {
-    company: "Bits & Brains AI",
-    role: "Founder",
+    company: "Freelancer",
+    role: "AI & Full Stack Developer",
     date: "Nov 2025 — Present",
-    logo: "BNB",
+    logo: "",
     description:
       "Founded and Building AI-powered systems, automation solutions and cloud-native applications that streamline business operations, improve efficiency, and accelerate digital transformation.",
   },
   {
-    company: "Micro1",
+    company: "Micro1 — Freelance",
     role: "AI Safety & Evaluation Specialist",
     date: "May 2026 — Present",
     logo: "M1",
@@ -33,10 +33,10 @@ export const roles = [
       "Performed AI safety and quality evaluations of LLM and multimodal outputs, supporting human-in-the-loop workflows, policy compliance, and model improvement.",
   },
   {
-    company: "Matrice AI",
-    role: "AI Engineer",
-    date: "August 2025 — Nov 2025",
-    logo: "MAI",
+    company: "The Boring Education",
+    role: "AI & Full Stack Developer",
+    date: "August 2025 — March 2026",
+    logo: "TBE",
     description:
       "Developed AI-powered automation workflows, LLM-integrated solutions, and event-driven systems using Python and LangChain to streamline operations and improve system performance.",
   },
@@ -259,7 +259,7 @@ export const projects = [
     gradient: "from-zinc-600 to-stone-600",
     bgColor: "#000000",
     img: portfolio,
-    live: "https://mohit-kumar-dey-portfolio.vercel.app/",
+    live: "https://mohit-kumar-dey.vercel.app/",
     github: "https://github.com/deymohit02/Portfolio-main",
   },
 
