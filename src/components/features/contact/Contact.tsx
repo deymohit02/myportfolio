@@ -84,7 +84,7 @@ const texting = [
         id: 'WhatsApp',
         label: 'WhatsApp',
         icon: MessageCircleMore,
-        href: 'https://wa.me/917002765156',
+        href: 'https://wa.me/917636061822',
         type: 'image',
         preview: whatsappImg,
         color: 'group-hover:text-green-600 group-hover:border-green-600/20 bg-green-600/5 hover:bg-green-600/10'
