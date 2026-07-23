@@ -22,7 +22,7 @@ export const roles = [
     date: "Nov 2025 — Present",
     logo: "",
     description:
-      "Building AI-powered systems, automation solutions and cloud-native applications that streamline business operations, improve efficiency, and accelerate digital transformation.",
+      "Currently developing AI-powered systems, automation solutions and cloud-native applications that streamline business operations, improve efficiency, and accelerate digital transformation.",
   },
   {
     company: "Micro1 — Freelance",
@@ -569,11 +569,11 @@ export const techStack = [
 ];
 
 export const socialLinks = {
-  site: "https://mohit-kumar-dey-portfolio.vercel.app",
+  site: "https://mohit-kumar-dey.vercel.app",
   github: "https://github.com/deymohit02",
   twitter: "https://x.com/deymohit02",
   linkedin: "https://www.linkedin.com/in/mohit-kumar-dey-8b1633291/",
   instagram: "https://www.instagram.com/deymohit02",
   email: "mailto:deymohit5@gmail.com",
-  whatsapp: "https://wa.me/917002765156",
+  whatsapp: "https://wa.me/+917636061822"
 };
