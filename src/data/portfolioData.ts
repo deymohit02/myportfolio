@@ -22,7 +22,7 @@ export const roles = [
     date: "Nov 2025 — Present",
     logo: "",
     description:
-      "Founded and Building AI-powered systems, automation solutions and cloud-native applications that streamline business operations, improve efficiency, and accelerate digital transformation.",
+      "Building AI-powered systems, automation solutions and cloud-native applications that streamline business operations, improve efficiency, and accelerate digital transformation.",
   },
   {
     company: "Micro1 — Freelance",
