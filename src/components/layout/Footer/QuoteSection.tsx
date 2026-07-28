@@ -76,7 +76,7 @@ const QuoteSection = () => {
             >
                 {/* Updated: text-black for maximum darkness/contrast */}
                 <span className="font-instrument italic text-lg text-black dark:text-zinc-200 tracking-wide">
-                    — Bhagavad Gita
+                    — Gautam Buddha
                 </span>
             </motion.div>
         </div>
