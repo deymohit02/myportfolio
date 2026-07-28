@@ -61,7 +61,7 @@ const QuoteSection = () => {
                     transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                     className="font-instrument italic text-[22px] md:text-4xl text-black dark:text-white leading-tight tracking-tight"
                 >
-                    "You have the right to perform your prescribed duty, but not to the fruits of your actions. <br /> Never consider yourself the cause of the results, and never be attached to inaction."
+                    "An idea that is developed and put into action is more important than an idea that exists only as an idea."
                 </motion.p>
             </div>
 
@@ -76,7 +76,7 @@ const QuoteSection = () => {
             >
                 {/* Updated: text-black for maximum darkness/contrast */}
                 <span className="font-instrument italic text-lg text-black dark:text-zinc-200 tracking-wide">
-                    — Bhagavad Gita
+                    — Gautam Buddha
                 </span>
             </motion.div>
         </div>
