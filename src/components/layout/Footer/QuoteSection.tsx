@@ -61,7 +61,7 @@ const QuoteSection = () => {
                     transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                     className="font-instrument italic text-[22px] md:text-4xl text-black dark:text-white leading-tight tracking-tight"
                 >
-                    "You have the right to perform your prescribed duty, but not to the fruits of your actions. <br /> Never consider yourself the cause of the results, and never be attached to inaction."
+                    "Every morning we are born again. </br> What we do today is what matters most."
                 </motion.p>
             </div>
 
