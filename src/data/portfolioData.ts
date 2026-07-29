@@ -14,6 +14,7 @@ import ExpenseIQ from "../assets/ExpenseIQ.png";
 import OnchainAgent from "../assets/Onchain.png";
 import KnorvexImg from "../assets/knorvex.png";
 import Verido from "../assets/verido.png";
+import RapidKeysImg from "../assets/RapidKeys.png";
 
 export const roles = [
   {
@@ -69,6 +70,25 @@ export const studies = [
 ];
 
 export const projects = [
+  {
+    id: "RapidKeys",
+    title: "RapidKeys",
+    role: "Side Project · Web App",
+    description:
+      "A typing speed test built around the Keychron keyboard aesthetic with audio feedback on every keystroke. Tracks WPM, accuracy, and stats with a clean, minimal UI.",
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "Motion React",
+      "Recharts",
+      "Tailwind CSS",
+    ],
+    gradient: "from-cyan-400 to-blue-500",
+    bgColor: "#e8f0f7",
+    img: RapidKeysImg,
+    live: "https://rapid-keys-psi.vercel.app/",
+    github: "https://github.com/deymohit02/RapidKeys",
+  },
   {
     id: "Knorvex",
     title: "Knorvex",
@@ -166,26 +186,7 @@ export const projects = [
     live: "https://x402-ai-agent.vercel.app/",
     github: "https://github.com/deymohit02/x402-Ai-Agent",
   },
-  {
-    id: "ExpenseIQ",
-    title: "ExpenseIQ",
-    role: "Mobile App",
-    description:
-      "Cross-platform expense tracker with an AI financial assistant powered by Google Gemini. Live on the Play Store.",
-    stack: [
-      "Expo",
-      "React Native",
-      "Node.js",
-      "Clerk",
-      "NeonDB",
-      "Gemini API",
-    ],
-    gradient: "from-orange-400 to-rose-500",
-    bgColor: "#1a0f0a",
-    img: ExpenseIQ,
-    live: "https://play.google.com/store/apps/details?id=com.expenseiq.app",
-    github: "https://github.com/deymohit02/ExpenseIQ",
-  },
+
   {
     id: "OnchainAgent",
     title: "OnchainAgent",
@@ -242,26 +243,7 @@ export const projects = [
     github: null,
   },
 
-  {
-    id: "3d Portfolio",
-    title: "3D Portfolio",
-    role: "Frontend Developer",
-    description: "Interactive portfolio website with immersive 3D elements.",
-    stack: [
-      "React",
-      "Three.js",
-      "Tailwind CSS",
-      "Node.js",
-      "Vercel",
-      "GSAP",
-      "Motion React",
-    ],
-    gradient: "from-zinc-600 to-stone-600",
-    bgColor: "#000000",
-    img: portfolio,
-    live: "https://mohit-kumar-dey.vercel.app/",
-    github: "https://github.com/deymohit02/Portfolio-main",
-  },
+
 
   {
     id: "SecureChat",
@@ -336,18 +318,7 @@ export const projects = [
     github: "https://github.com/deymohit02/week-14-solana-services-wallet",
   },
 
-  {
-    id: "Twitter Dapp",
-    title: "Twitter Dapp",
-    role: "Full Stack Web3 Developer",
-    description: "Decentralized Twitter-like social media application.",
-    stack: ["React", "Web3.js", "Tailwind CSS", "Vercel", "GSAP", "Ethereum"],
-    gradient: "from-zinc-600 to-stone-600",
-    bgColor: "#002137",
-    img: twitterdapp,
-    live: "https://twitterdapp.netlify.app/",
-    github: "https://github.com/deymohit02/Twitter-Dapp",
-  },
+
 ];
 
 export const techStack = [
@@ -565,6 +536,11 @@ export const techStack = [
     name: "Ethereum",
     icon: "https://ethereum.org/favicon.ico",
     url: "https://ethereum.org",
+  },
+  {
+    name: "Recharts",
+    icon: "https://recharts.org/favicon.ico",
+    url: "https://recharts.org",
   },
 ];
 
